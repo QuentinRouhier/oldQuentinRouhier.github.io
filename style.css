@@ -25,7 +25,7 @@ header  a
   margin-top:10px;
   background-image:-webkit-linear-gradient(top, white 0%, #00689D 100%);
 }
-#menuAll
+.menuAll
 {
   height: auto;
   text-align: center;
