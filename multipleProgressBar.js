@@ -1,5 +1,5 @@
-var startColor = '#FF4B2A';
-var endColor = '#A41C22';
+var startColor = '#BAE1FE';
+var endColor = '#0090FE';
 
 window.onload = function onLoad() {
   window.index = 0;
