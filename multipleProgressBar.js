@@ -48,4 +48,8 @@ window.onload = function onLoad() {
       createBarProgress(progressBars[i]);
     }
   }
+  else {
+    $('.progressBar').hide();
+    $('.meter').show();
+  }
 };
