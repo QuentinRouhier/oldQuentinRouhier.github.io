@@ -31,15 +31,15 @@ header  a
   height: auto;
   text-align: center;
 }
-.target2
+#target2
 {
   display: none;
 }
-.target3
+#target3
 {
   display: none;
 }
-.target4
+#target4
 {
   display: none;
 }
@@ -68,7 +68,8 @@ header  a
   margin-bottom: 25px;
   color: black;
 }
-.meter span {
+.meter span
+{
   display: block;
   height: 4px;
   border-top-right-radius: 8px;
@@ -80,7 +81,7 @@ header  a
   position: relative;
   overflow: hidden;
 }
-@media (max-width:767px)
+@media  (max-width:767px)
 {
   .chameau
   {
@@ -88,7 +89,7 @@ header  a
   }
   .chameau3
   {
-    display:list-item;
+    display:block;
   }
 
 }
