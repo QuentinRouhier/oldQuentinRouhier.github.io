@@ -8,6 +8,7 @@ body
   background-size: cover;
   margin-bottom: 20px;
   word-wrap: break-word;
+  font-family: DejaVu Fonts;
 }
 header
 {
@@ -21,10 +22,35 @@ header  a
   color:white;
   font-size: 20px;
 }
+hr.style18 {
+  height: 30px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+hr.style18:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+#info
+{
+  padding-left: 5px;
+}
+#info2
+{
+  padding-left: 5px;
+}
 .panel
 {
   margin-top:10px;
-  background-image:-webkit-linear-gradient(top, white 0%, #00689D 100%);
+  background-image:-webkit-linear-gradient(top, white 0%, #4B94BA 100%);
 }
 .menuAll
 {
@@ -45,11 +71,11 @@ header  a
 }
 .progressBar
 {
- margin: 5px;
- width: 100%;
- height: 4px;
- position: relative;
- display: none;
+  margin: 5px;
+  width: 100%;
+  height: 4px;
+  position: relative;
+  display: none;
 }
 .chameau3
 {
@@ -61,10 +87,10 @@ header  a
 }
 .meter
 {
-	height: 4px;
-	position: relative;
-	background: #555;
-	border-radius: 25px;
+  height: 4px;
+  position: relative;
+  background: #555;
+  border-radius: 25px;
   margin-bottom: 25px;
   color: black;
 }
@@ -80,16 +106,4 @@ header  a
   background-image: linear-gradient(to bottom, #BAE1FE, #0090FE);
   position: relative;
   overflow: hidden;
-}
-@media  (max-width:767px)
-{
-  .chameau
-  {
-    display: none;
-  }
-  .chameau3
-  {
-    display:block;
-  }
-
 }

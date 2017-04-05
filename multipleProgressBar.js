@@ -1,5 +1,5 @@
 var startColor = '#BAE1FE';
-var endColor = '#0090FE';
+var endColor = '#081559';
 
 window.onload = function onLoad() {
   window.index = 0;
@@ -25,7 +25,7 @@ window.onload = function onLoad() {
             color: '#181819',
             position: 'absolute',
             right: '0',
-            top: '13px',
+            bottom: 0,
             padding: 0,
             margin: 0,
             transform: null
