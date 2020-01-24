@@ -22,7 +22,7 @@ appRoute.config(['$routeProvider', function ($routeProvider) {
                     controller: 'loisirsCtrl'
                 })
                 .otherwise({
-                    redirectTo: '/competance'
+                    redirectTo: '/competences'
                 });
     }]);
 // objet qui control les controlers
