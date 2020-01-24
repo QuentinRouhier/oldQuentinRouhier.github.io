@@ -5,8 +5,8 @@ var appRoute = angular.module('appRoute', ['ngRoute']);
 appRoute.config(['$routeProvider', function ($routeProvider) {
 
         $routeProvider
-                .when('/competance', {
-                    templateUrl: 'assets/view/competance.html',
+                .when('/competences', {
+                    templateUrl: 'assets/view/competences.html',
                     controller: 'competanceCtrl'
                 })
                 .when('/experience', {
